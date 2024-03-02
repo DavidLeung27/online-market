@@ -1,5 +1,5 @@
 import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
-import Title from './Title';
+import Header from './Header';
 import ProductList from './ProductList';
 import LoginPage from './LoginPage';
 import NotFound from './NotFound';
@@ -7,7 +7,7 @@ import NotFound from './NotFound';
 function App() {
   return (
     <BrowserRouter>
-      <Title/>
+      <Header/>
       <Routes>
         <Route path='/product' element={<ProductList/>}/>
         <Route path='/login' element={<LoginPage/>}/>
