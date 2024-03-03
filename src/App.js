@@ -3,6 +3,7 @@ import Header from './Header';
 import ProductList from './ProductList';
 import LoginPage from './LoginPage';
 import NotFound from './NotFound';
+import styles from './css/base.css'
 
 function App() {
   return (

@@ -1,12 +1,13 @@
 import React, {useState} from 'react'
+import styles from './css/LoginPage.module.css'
 
 export default function LoginPage() {
   const [phoneLogin, setPhoneLogin] = useState(true);
   
   return (
-    <div>
+    <div className={styles.loginSignupBox}>
       {/* Login Box */}
-      <div>
+      <div className={styles.loginBox}>
         Login
         <form>
           <div>
@@ -41,7 +42,7 @@ export default function LoginPage() {
       </div>
 
       {/* SignUp Box */}
-      <div>
+      <div className={styles.signUpBox}>
         Sign Up
         <button className="phone_signup">Sign Up with Phone</button>
         <button className="google_signup">Sign Up with Google Account</button>

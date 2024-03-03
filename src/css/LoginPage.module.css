@@ -1,0 +1,28 @@
+.loginSignupBox {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    height: 600px;
+    position: relative;
+    background-color: wheat;
+}
+
+.loginBox {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border-style: solid;
+    position: relative;
+    background-color: wheat;
+}
+
+.signUpBox {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border-style: solid;
+    position: relative;
+    background-color: wheat;
+}
