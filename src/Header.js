@@ -16,6 +16,9 @@ export default function
       <Link to="/login"  className={styles.headerButton}>
         <span className={styles.headerBtnText}>Login/Sign Up</span>
       </Link>
+      <Link to="/login"  className={styles.headerButton}>
+        <span className={styles.headerBtnText}>Login/Sign Up</span>
+      </Link>
     </div>
   )
 }
