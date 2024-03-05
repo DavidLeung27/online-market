@@ -1,0 +1,29 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+body {
+    background-color: wheat;
+    margin: 0;
+}
+
+div {
+    display: block;
+    margin-left: 0;
+    margin-right: 0;
+    text-align: center;
+}
+
+button {
+    width: 100%;
+    border-width: 1;
+}
+
+input {
+    width: 100%;
+    border-width: 1;
+}
