@@ -3,10 +3,12 @@ import Header from './Header';
 import ProductList from './ProductList';
 import LoginPage from './LoginPage';
 import NotFound from './NotFound';
+import SignUpPage from './SignUpPage';
 import './css/base.css'
-import styles from './css/WholePage.module.css'
+import styles from './css/MainPage.module.css'
 
-function WholePage() {
+
+function MainPage() {
   return (
     <div className={styles.pageContainer}>
       <BrowserRouter>
@@ -14,6 +16,7 @@ function WholePage() {
         <Routes>
             <Route path='/product' element={<ProductList/>}/>
             <Route path='/login' element={<LoginPage/>}/>
+            <Route path='/signup' element={<SignUpPage/>}/>
             <Route path='*' element={<NotFound/>}/>        
           </Routes>
       </BrowserRouter>
@@ -21,4 +24,4 @@ function WholePage() {
   );
 }
 
-export default WholePage;
+export default MainPage;

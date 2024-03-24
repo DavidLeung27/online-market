@@ -1,10 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import WholePage from './WholePage';
+import MainPage from './MainPage';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode width="100%">
-    <WholePage />
+    <MainPage />
   </React.StrictMode>
 );
